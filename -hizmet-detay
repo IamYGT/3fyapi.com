@@ -1,0 +1,142 @@
+<?php  include("admin/include/site_db.php"); ?><!DOCTYPE html>
+<html lang="tr">
+  <head>
+    
+    <title>3F Yapı | Hizmet Detay</title>
+    <meta charset="UTF-8" />
+    <link href="img\logos\logo-shortcut.png" rel="shortcut icon" />
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport" />
+    <link href="css\bootstrap.min.css" rel="stylesheet" />
+    <link href="css\font-awesome.css" rel="stylesheet" />
+    <link href="css\icomoon.css" rel="stylesheet" />
+    <link href="css\swiper.min.css" rel="stylesheet" />
+    <link href="css\animate.css" rel="stylesheet" />
+    <link href="css\owl.carousel.css" rel="stylesheet" />
+    <link href="css\slick.css" rel="stylesheet" />
+    <link href="css\particles.css" rel="stylesheet" />
+    <link href="css\default.css" rel="stylesheet" />
+    <link href="css\styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700,800,900" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+    </div>
+  <?php include("ust.php")?>
+  <div class="page-title">
+      <div id="particles-js-pagetitle"></div>
+      <div class="container">
+        <h1>Service Detail</h1>
+        <h6>Dream House</h6>
+      </div>
+    </div>
+    <div class="section-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2 class="animated fadeInLeft wow">First Step</h2>
+              <h3>Submittals and Drawings</h3>
+            </div>
+            <div class="text-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et
+              urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Cras lacinia
+              magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Cras lacinia magna vel molestie faucibus.</p>
+              <p>Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie
+              faucibus. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Cras lacinia magna vel molestie faucibus.Cras lacinia magna vel molestie faucibus. Donec auctor et
+              urnaLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel
+              molestie faucibus.</p>
+            </div>
+            <div class="row mt-30">
+              <div class="col-xs-12 col-md-6 col-sm-6">
+                <img alt="service-detail" src="img/content/h-sketch-1.jpg" />
+              </div>
+              <div class="col-xs-12 col-md-6 col-sm-6">
+                <img alt="service-detail" src="img/content/h-sketch-2.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mt-70">
+            <div class="section-heading">
+              <h2 class="animated fadeInLeft wow">The Final Step</h2>
+              <h3>Final Inspections</h3>
+            </div>
+            <div class="text-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et
+              urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Cras lacinia
+              magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Cras lacinia magna vel molestie faucibus.</p>
+              <p>Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie
+              faucibus. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Cras lacinia magna vel molestie faucibus.Cras lacinia magna vel molestie faucibus. Donec auctor et
+              urnaLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel
+              molestie faucibus.</p>
+            </div>
+            <div class="row mt-30">
+              <div class="col-xs-12 col-md-6 col-sm-6">
+                <img alt="service-detail" src="img/content/s-detail-1.jpg" />
+              </div>
+              <div class="col-xs-12 col-md-6 col-sm-6">
+                <img alt="service-detail" src="img/content/s-detail-2.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container section-block">
+      <div>
+        <div class="col-xs-12 col-md-3 col-sm-3">
+          <div class="section-heading">
+            <h2 class="animated fadeInLeft wow">Our Clients</h2>
+            <h3>Great Clients</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-9 col-sm-9">
+          <div class="owl-carousel owl-theme" id="our-clients">
+            <div class="client-item">
+              <img alt="client" src="img/partners/partner1.jpg" />
+            </div>
+            <div class="client-item">
+              <img alt="client" src="img/partners/partner2.jpg" />
+            </div>
+            <div class="client-item">
+              <img alt="client" src="img/partners/partner3.jpg" />
+            </div>
+            <div class="client-item">
+              <img alt="client" src="img/partners/partner4.jpg" />
+            </div>
+            <div class="client-item">
+              <img alt="client" src="img/partners/partner5.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <?php include("alt.php")?> 
+  <a href="#" class="scroll-to-top"></a>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/jquery.hover3d.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/scrollax.js"></script>
+    <script src="js/slick-plugin.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
